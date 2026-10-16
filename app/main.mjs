@@ -158,7 +158,7 @@ handle("setup:detect", async () => {
   const sz = (list) => list.reduce((s, f) => s + f.size, 0);
   return { hw, dir, freeGB: diskFreeGB(dir), manifest: {
     runtimes: Object.fromEntries(Object.entries(MANIFEST.runtimes).map(([k, v]) => [k, { label: v.label, size: sz(v.files) }])),
-    models: Object.fromEntries(Object.entries(MANIFEST.models).map(([k, v]) => [k, { label: v.label, size: v.file.size + MANIFEST.mmproj.file.size, minVramGB: v.minVramGB }])),
+    models: Object.fromEntries(Object.entries(MANIFEST.models).map(([k, v]) => [k, { label: v.label, size: v.file.size + MANIFEST.mmproj.file.size + (fs.existsSync(LOCAL_LORA) ? 0 : MANIFEST.persona.file.size), minVramGB: v.minVramGB }])),   // 말포이 성격 LoRA 포함
     draft: { label: MANIFEST.draft.label, size: MANIFEST.draft.file.size } } };
 });
 handle("setup:chooseDir", async () => {

@@ -8,10 +8,56 @@
   "main": "main.mjs",
   "scripts": {
     "start": "electron .",
-    "dev": "electron . --dev"
+    "dev": "electron . --dev",
+    "dist": "electron-builder --win nsis"
   },
   "devDependencies": {
-    "electron": "44.5.1"
+    "electron": "44.5.1",
+    "electron-builder": "^26.15.3"
   },
-  "license": "GPL-3.0-only"
+  "license": "GPL-3.0-only",
+  "build": {
+    "appId": "io.github.mugeunbonsilheomsil.tsmalfoy",
+    "productName": "TS Malfoy",
+    "artifactName": "TS-Malfoy-Setup-${version}.${ext}",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "package.json",
+      "main.mjs",
+      "preload.cjs",
+      "src/**",
+      "ui/**",
+      "persona/**",
+      "native/**",
+      "!persona/**/*.gguf",
+      "!persona/voice/*.json"
+    ],
+    "asarUnpack": [
+      "persona/voice/*.wav",
+      "native/**"
+    ],
+    "extraResources": [
+      {
+        "from": "../assets/animation/v2",
+        "to": "avatar-v2",
+        "filter": [
+          "animation.json",
+          "frames/**"
+        ]
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "ui/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "shortcutName": "TS Malfoy",
+      "uninstallDisplayName": "TS Malfoy"
+    }
+  }
 }
