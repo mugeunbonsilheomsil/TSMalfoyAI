@@ -1,0 +1,4991 @@
+{
+  "version": 2,
+  "type": "2d_talking_avatar_assets",
+  "character": "TS Malfoy",
+  "canvas": [
+    512,
+    512
+  ],
+  "style_reference": "reference/approved_malfoy.png",
+  "mouth_states": [
+    "rest",
+    "small",
+    "open",
+    "round",
+    "wide",
+    "narrow"
+  ],
+  "eye_states": [
+    "open",
+    "half",
+    "closed"
+  ],
+  "emotions": [
+    {
+      "id": "neutral",
+      "name_ko": "기본·듣기",
+      "atlas": "atlases/neutral.png",
+      "base": "layers/neutral/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/neutral/mouth_rest.png",
+          "small": "layers/neutral/mouth_small.png",
+          "open": "layers/neutral/mouth_open.png",
+          "round": "layers/neutral/mouth_round.png",
+          "wide": "layers/neutral/mouth_wide.png",
+          "narrow": "layers/neutral/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/neutral/eyes_open.png",
+          "half": "layers/neutral/eyes_half.png",
+          "closed": "layers/neutral/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/neutral/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/neutral/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/neutral/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/neutral/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/neutral/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/neutral/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/neutral/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/neutral/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/neutral/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/neutral/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/neutral/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/neutral/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/neutral/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/neutral/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/neutral/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/neutral/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/neutral/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/neutral/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          291.16,
+          227.92
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            21,
+            0
+          ],
+          "correlation": 0.934
+        },
+        {
+          "offset": [
+            43,
+            0
+          ],
+          "correlation": 0.873
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.989
+        },
+        {
+          "offset": [
+            21,
+            0
+          ],
+          "correlation": 0.936
+        },
+        {
+          "offset": [
+            43,
+            0
+          ],
+          "correlation": 0.871
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.988
+        },
+        {
+          "offset": [
+            21,
+            0
+          ],
+          "correlation": 0.952
+        },
+        {
+          "offset": [
+            43,
+            0
+          ],
+          "correlation": 0.885
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/neutral.webp",
+        "idle": "previews/neutral_idle.webp"
+      }
+    },
+    {
+      "id": "smug",
+      "name_ko": "우쭐함",
+      "atlas": "atlases/smug.png",
+      "base": "layers/smug/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/smug/mouth_rest.png",
+          "small": "layers/smug/mouth_small.png",
+          "open": "layers/smug/mouth_open.png",
+          "round": "layers/smug/mouth_round.png",
+          "wide": "layers/smug/mouth_wide.png",
+          "narrow": "layers/smug/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/smug/eyes_open.png",
+          "half": "layers/smug/eyes_half.png",
+          "closed": "layers/smug/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/smug/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/smug/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/smug/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/smug/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/smug/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/smug/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/smug/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/smug/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/smug/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/smug/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/smug/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/smug/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/smug/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/smug/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/smug/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/smug/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/smug/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/smug/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          292.81,
+          225.74
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            21,
+            0
+          ],
+          "correlation": 0.969
+        },
+        {
+          "offset": [
+            43,
+            0
+          ],
+          "correlation": 0.896
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.985
+        },
+        {
+          "offset": [
+            21,
+            0
+          ],
+          "correlation": 0.981
+        },
+        {
+          "offset": [
+            43,
+            0
+          ],
+          "correlation": 0.9
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.975
+        },
+        {
+          "offset": [
+            21,
+            0
+          ],
+          "correlation": 0.943
+        },
+        {
+          "offset": [
+            43,
+            0
+          ],
+          "correlation": 0.893
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/smug.webp",
+        "idle": "previews/smug_idle.webp"
+      }
+    },
+    {
+      "id": "happy",
+      "name_ko": "기쁨",
+      "atlas": "atlases/happy.png",
+      "base": "layers/happy/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/happy/mouth_rest.png",
+          "small": "layers/happy/mouth_small.png",
+          "open": "layers/happy/mouth_open.png",
+          "round": "layers/happy/mouth_round.png",
+          "wide": "layers/happy/mouth_wide.png",
+          "narrow": "layers/happy/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/happy/eyes_open.png",
+          "half": "layers/happy/eyes_half.png",
+          "closed": "layers/happy/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/happy/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/happy/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/happy/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/happy/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/happy/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/happy/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/happy/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/happy/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/happy/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/happy/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/happy/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/happy/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/happy/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/happy/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/happy/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/happy/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/happy/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/happy/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          294.8,
+          228.5
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.948
+        },
+        {
+          "offset": [
+            52,
+            0
+          ],
+          "correlation": 0.851
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.986
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.946
+        },
+        {
+          "offset": [
+            52,
+            0
+          ],
+          "correlation": 0.856
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.995
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.946
+        },
+        {
+          "offset": [
+            52,
+            0
+          ],
+          "correlation": 0.855
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/happy.webp",
+        "idle": "previews/happy_idle.webp"
+      }
+    },
+    {
+      "id": "flustered",
+      "name_ko": "당황",
+      "atlas": "atlases/flustered.png",
+      "base": "layers/flustered/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/flustered/mouth_rest.png",
+          "small": "layers/flustered/mouth_small.png",
+          "open": "layers/flustered/mouth_open.png",
+          "round": "layers/flustered/mouth_round.png",
+          "wide": "layers/flustered/mouth_wide.png",
+          "narrow": "layers/flustered/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/flustered/eyes_open.png",
+          "half": "layers/flustered/eyes_half.png",
+          "closed": "layers/flustered/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/flustered/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/flustered/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/flustered/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/flustered/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/flustered/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/flustered/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/flustered/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/flustered/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/flustered/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/flustered/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/flustered/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/flustered/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/flustered/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/flustered/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/flustered/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/flustered/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/flustered/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/flustered/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          295.11,
+          231.74
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            22,
+            0
+          ],
+          "correlation": 0.961
+        },
+        {
+          "offset": [
+            44,
+            0
+          ],
+          "correlation": 0.847
+        },
+        {
+          "offset": [
+            0,
+            1
+          ],
+          "correlation": 0.969
+        },
+        {
+          "offset": [
+            22,
+            1
+          ],
+          "correlation": 0.916
+        },
+        {
+          "offset": [
+            44,
+            0
+          ],
+          "correlation": 0.822
+        },
+        {
+          "offset": [
+            0,
+            1
+          ],
+          "correlation": 0.942
+        },
+        {
+          "offset": [
+            22,
+            1
+          ],
+          "correlation": 0.893
+        },
+        {
+          "offset": [
+            44,
+            1
+          ],
+          "correlation": 0.848
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/flustered.webp",
+        "idle": "previews/flustered_idle.webp"
+      }
+    },
+    {
+      "id": "jealous",
+      "name_ko": "질투",
+      "atlas": "atlases/jealous.png",
+      "base": "layers/jealous/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/jealous/mouth_rest.png",
+          "small": "layers/jealous/mouth_small.png",
+          "open": "layers/jealous/mouth_open.png",
+          "round": "layers/jealous/mouth_round.png",
+          "wide": "layers/jealous/mouth_wide.png",
+          "narrow": "layers/jealous/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/jealous/eyes_open.png",
+          "half": "layers/jealous/eyes_half.png",
+          "closed": "layers/jealous/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/jealous/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/jealous/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/jealous/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/jealous/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/jealous/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/jealous/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/jealous/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/jealous/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/jealous/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/jealous/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/jealous/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/jealous/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/jealous/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/jealous/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/jealous/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/jealous/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/jealous/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/jealous/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          301.11,
+          230.01
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            22,
+            0
+          ],
+          "correlation": 0.953
+        },
+        {
+          "offset": [
+            43,
+            0
+          ],
+          "correlation": 0.891
+        },
+        {
+          "offset": [
+            0,
+            1
+          ],
+          "correlation": 0.953
+        },
+        {
+          "offset": [
+            22,
+            1
+          ],
+          "correlation": 0.877
+        },
+        {
+          "offset": [
+            43,
+            1
+          ],
+          "correlation": 0.917
+        },
+        {
+          "offset": [
+            0,
+            2
+          ],
+          "correlation": 0.918
+        },
+        {
+          "offset": [
+            22,
+            1
+          ],
+          "correlation": 0.928
+        },
+        {
+          "offset": [
+            43,
+            2
+          ],
+          "correlation": 0.931
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/jealous.webp",
+        "idle": "previews/jealous_idle.webp"
+      }
+    },
+    {
+      "id": "angry",
+      "name_ko": "화남",
+      "atlas": "atlases/angry.png",
+      "base": "layers/angry/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/angry/mouth_rest.png",
+          "small": "layers/angry/mouth_small.png",
+          "open": "layers/angry/mouth_open.png",
+          "round": "layers/angry/mouth_round.png",
+          "wide": "layers/angry/mouth_wide.png",
+          "narrow": "layers/angry/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/angry/eyes_open.png",
+          "half": "layers/angry/eyes_half.png",
+          "closed": "layers/angry/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/angry/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/angry/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/angry/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/angry/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/angry/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/angry/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/angry/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/angry/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/angry/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/angry/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/angry/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/angry/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/angry/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/angry/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/angry/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/angry/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/angry/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/angry/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          292.25,
+          226.3
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            25,
+            0
+          ],
+          "correlation": 0.947
+        },
+        {
+          "offset": [
+            47,
+            0
+          ],
+          "correlation": 0.841
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.961
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.919
+        },
+        {
+          "offset": [
+            47,
+            0
+          ],
+          "correlation": 0.863
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.969
+        },
+        {
+          "offset": [
+            23,
+            0
+          ],
+          "correlation": 0.858
+        },
+        {
+          "offset": [
+            47,
+            0
+          ],
+          "correlation": 0.923
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/angry.webp",
+        "idle": "previews/angry_idle.webp"
+      }
+    },
+    {
+      "id": "sad",
+      "name_ko": "서운함",
+      "atlas": "atlases/sad.png",
+      "base": "layers/sad/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/sad/mouth_rest.png",
+          "small": "layers/sad/mouth_small.png",
+          "open": "layers/sad/mouth_open.png",
+          "round": "layers/sad/mouth_round.png",
+          "wide": "layers/sad/mouth_wide.png",
+          "narrow": "layers/sad/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/sad/eyes_open.png",
+          "half": "layers/sad/eyes_half.png",
+          "closed": "layers/sad/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/sad/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/sad/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/sad/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/sad/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/sad/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/sad/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/sad/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/sad/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/sad/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/sad/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/sad/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/sad/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/sad/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/sad/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/sad/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/sad/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/sad/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/sad/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          298.3,
+          231.14
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            23,
+            0
+          ],
+          "correlation": 0.902
+        },
+        {
+          "offset": [
+            44,
+            0
+          ],
+          "correlation": 0.854
+        },
+        {
+          "offset": [
+            -1,
+            1
+          ],
+          "correlation": 0.985
+        },
+        {
+          "offset": [
+            23,
+            1
+          ],
+          "correlation": 0.859
+        },
+        {
+          "offset": [
+            44,
+            1
+          ],
+          "correlation": 0.87
+        },
+        {
+          "offset": [
+            -1,
+            -1
+          ],
+          "correlation": 0.964
+        },
+        {
+          "offset": [
+            23,
+            -1
+          ],
+          "correlation": 0.919
+        },
+        {
+          "offset": [
+            44,
+            0
+          ],
+          "correlation": 0.834
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/sad.webp",
+        "idle": "previews/sad_idle.webp"
+      }
+    },
+    {
+      "id": "worried",
+      "name_ko": "걱정",
+      "atlas": "atlases/worried.png",
+      "base": "layers/worried/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/worried/mouth_rest.png",
+          "small": "layers/worried/mouth_small.png",
+          "open": "layers/worried/mouth_open.png",
+          "round": "layers/worried/mouth_round.png",
+          "wide": "layers/worried/mouth_wide.png",
+          "narrow": "layers/worried/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/worried/eyes_open.png",
+          "half": "layers/worried/eyes_half.png",
+          "closed": "layers/worried/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/worried/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/worried/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/worried/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/worried/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/worried/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/worried/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/worried/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/worried/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/worried/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/worried/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/worried/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/worried/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/worried/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/worried/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/worried/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/worried/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/worried/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/worried/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          293.15,
+          229.2
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            25,
+            0
+          ],
+          "correlation": 0.938
+        },
+        {
+          "offset": [
+            50,
+            0
+          ],
+          "correlation": 0.862
+        },
+        {
+          "offset": [
+            0,
+            1
+          ],
+          "correlation": 1.007
+        },
+        {
+          "offset": [
+            25,
+            0
+          ],
+          "correlation": 1.014
+        },
+        {
+          "offset": [
+            50,
+            0
+          ],
+          "correlation": 0.935
+        },
+        {
+          "offset": [
+            0,
+            1
+          ],
+          "correlation": 0.894
+        },
+        {
+          "offset": [
+            25,
+            1
+          ],
+          "correlation": 0.879
+        },
+        {
+          "offset": [
+            50,
+            1
+          ],
+          "correlation": 0.848
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/worried.webp",
+        "idle": "previews/worried_idle.webp"
+      }
+    },
+    {
+      "id": "surprised",
+      "name_ko": "놀람",
+      "atlas": "atlases/surprised.png",
+      "base": "layers/surprised/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/surprised/mouth_rest.png",
+          "small": "layers/surprised/mouth_small.png",
+          "open": "layers/surprised/mouth_open.png",
+          "round": "layers/surprised/mouth_round.png",
+          "wide": "layers/surprised/mouth_wide.png",
+          "narrow": "layers/surprised/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/surprised/eyes_open.png",
+          "half": "layers/surprised/eyes_half.png",
+          "closed": "layers/surprised/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/surprised/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/surprised/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/surprised/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/surprised/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/surprised/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/surprised/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/surprised/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/surprised/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/surprised/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/surprised/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/surprised/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/surprised/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/surprised/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/surprised/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/surprised/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/surprised/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/surprised/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/surprised/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          302.65,
+          230.88
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            19,
+            0
+          ],
+          "correlation": 0.917
+        },
+        {
+          "offset": [
+            36,
+            0
+          ],
+          "correlation": 0.867
+        },
+        {
+          "offset": [
+            0,
+            3
+          ],
+          "correlation": 0.829
+        },
+        {
+          "offset": [
+            20,
+            4
+          ],
+          "correlation": 0.726
+        },
+        {
+          "offset": [
+            36,
+            4
+          ],
+          "correlation": 0.726
+        },
+        {
+          "offset": [
+            0,
+            6
+          ],
+          "correlation": 0.833
+        },
+        {
+          "offset": [
+            20,
+            6
+          ],
+          "correlation": 0.832
+        },
+        {
+          "offset": [
+            36,
+            6
+          ],
+          "correlation": 0.755
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/surprised.webp",
+        "idle": "previews/surprised_idle.webp"
+      }
+    },
+    {
+      "id": "suspicious",
+      "name_ko": "의심",
+      "atlas": "atlases/suspicious.png",
+      "base": "layers/suspicious/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/suspicious/mouth_rest.png",
+          "small": "layers/suspicious/mouth_small.png",
+          "open": "layers/suspicious/mouth_open.png",
+          "round": "layers/suspicious/mouth_round.png",
+          "wide": "layers/suspicious/mouth_wide.png",
+          "narrow": "layers/suspicious/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/suspicious/eyes_open.png",
+          "half": "layers/suspicious/eyes_half.png",
+          "closed": "layers/suspicious/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/suspicious/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/suspicious/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/suspicious/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/suspicious/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/suspicious/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/suspicious/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/suspicious/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/suspicious/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/suspicious/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/suspicious/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/suspicious/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/suspicious/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/suspicious/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/suspicious/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/suspicious/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/suspicious/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/suspicious/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/suspicious/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          308.18,
+          234.45
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.922
+        },
+        {
+          "offset": [
+            53,
+            0
+          ],
+          "correlation": 0.812
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.911
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.877
+        },
+        {
+          "offset": [
+            52,
+            0
+          ],
+          "correlation": 0.849
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.891
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.881
+        },
+        {
+          "offset": [
+            52,
+            0
+          ],
+          "correlation": 0.85
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/suspicious.webp",
+        "idle": "previews/suspicious_idle.webp"
+      }
+    },
+    {
+      "id": "playful",
+      "name_ko": "장난",
+      "atlas": "atlases/playful.png",
+      "base": "layers/playful/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/playful/mouth_rest.png",
+          "small": "layers/playful/mouth_small.png",
+          "open": "layers/playful/mouth_open.png",
+          "round": "layers/playful/mouth_round.png",
+          "wide": "layers/playful/mouth_wide.png",
+          "narrow": "layers/playful/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/playful/eyes_open.png",
+          "half": "layers/playful/eyes_half.png",
+          "closed": "layers/playful/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/playful/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/playful/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/playful/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/playful/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/playful/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/playful/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/playful/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/playful/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/playful/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/playful/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/playful/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/playful/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/playful/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/playful/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/playful/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/playful/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/playful/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/playful/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          303.82,
+          235.69
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.93
+        },
+        {
+          "offset": [
+            52,
+            0
+          ],
+          "correlation": 0.857
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.98
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.919
+        },
+        {
+          "offset": [
+            52,
+            0
+          ],
+          "correlation": 0.845
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.967
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.9
+        },
+        {
+          "offset": [
+            52,
+            0
+          ],
+          "correlation": 0.844
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/playful.webp",
+        "idle": "previews/playful_idle.webp"
+      }
+    },
+    {
+      "id": "relieved",
+      "name_ko": "안도",
+      "atlas": "atlases/relieved.png",
+      "base": "layers/relieved/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/relieved/mouth_rest.png",
+          "small": "layers/relieved/mouth_small.png",
+          "open": "layers/relieved/mouth_open.png",
+          "round": "layers/relieved/mouth_round.png",
+          "wide": "layers/relieved/mouth_wide.png",
+          "narrow": "layers/relieved/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/relieved/eyes_open.png",
+          "half": "layers/relieved/eyes_half.png",
+          "closed": "layers/relieved/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/relieved/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/relieved/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/relieved/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/relieved/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/relieved/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/relieved/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/relieved/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/relieved/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/relieved/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/relieved/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/relieved/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/relieved/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/relieved/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/relieved/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/relieved/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/relieved/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/relieved/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/relieved/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          293.08,
+          229.89
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            24,
+            0
+          ],
+          "correlation": 0.906
+        },
+        {
+          "offset": [
+            47,
+            0
+          ],
+          "correlation": 0.818
+        },
+        {
+          "offset": [
+            0,
+            3
+          ],
+          "correlation": 0.835
+        },
+        {
+          "offset": [
+            24,
+            3
+          ],
+          "correlation": 0.85
+        },
+        {
+          "offset": [
+            47,
+            3
+          ],
+          "correlation": 0.748
+        },
+        {
+          "offset": [
+            0,
+            4
+          ],
+          "correlation": 0.722
+        },
+        {
+          "offset": [
+            23,
+            4
+          ],
+          "correlation": 0.699
+        },
+        {
+          "offset": [
+            47,
+            3
+          ],
+          "correlation": 0.681
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/relieved.webp",
+        "idle": "previews/relieved_idle.webp"
+      }
+    },
+    {
+      "id": "shy",
+      "name_ko": "부끄러운 미소",
+      "atlas": "atlases/shy.png",
+      "base": "layers/shy/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/shy/mouth_rest.png",
+          "small": "layers/shy/mouth_small.png",
+          "open": "layers/shy/mouth_open.png",
+          "round": "layers/shy/mouth_round.png",
+          "wide": "layers/shy/mouth_wide.png",
+          "narrow": "layers/shy/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/shy/eyes_open.png",
+          "half": "layers/shy/eyes_half.png",
+          "closed": "layers/shy/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/shy/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/shy/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/shy/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/shy/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/shy/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/shy/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/shy/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/shy/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/shy/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/shy/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/shy/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/shy/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/shy/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/shy/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/shy/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/shy/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/shy/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/shy/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          301.42,
+          232.65
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.947
+        },
+        {
+          "offset": [
+            52,
+            0
+          ],
+          "correlation": 0.844
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.993
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.94
+        },
+        {
+          "offset": [
+            52,
+            0
+          ],
+          "correlation": 0.85
+        },
+        {
+          "offset": [
+            0,
+            1
+          ],
+          "correlation": 0.967
+        },
+        {
+          "offset": [
+            26,
+            1
+          ],
+          "correlation": 0.921
+        },
+        {
+          "offset": [
+            52,
+            1
+          ],
+          "correlation": 0.873
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/shy.webp",
+        "idle": "previews/shy_idle.webp"
+      }
+    },
+    {
+      "id": "deflated",
+      "name_ko": "풀이 죽음",
+      "atlas": "atlases/deflated.png",
+      "base": "layers/deflated/base.png",
+      "layers": {
+        "mouths": {
+          "rest": "layers/deflated/mouth_rest.png",
+          "small": "layers/deflated/mouth_small.png",
+          "open": "layers/deflated/mouth_open.png",
+          "round": "layers/deflated/mouth_round.png",
+          "wide": "layers/deflated/mouth_wide.png",
+          "narrow": "layers/deflated/mouth_narrow.png"
+        },
+        "eyes": {
+          "open": "layers/deflated/eyes_open.png",
+          "half": "layers/deflated/eyes_half.png",
+          "closed": "layers/deflated/eyes_closed.png"
+        }
+      },
+      "frames": [
+        {
+          "mouth": "rest",
+          "eyes": "open",
+          "file": "frames/deflated/rest_open.png",
+          "rect": [
+            0,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "open",
+          "file": "frames/deflated/small_open.png",
+          "rect": [
+            512,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "open",
+          "file": "frames/deflated/open_open.png",
+          "rect": [
+            1024,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "open",
+          "file": "frames/deflated/round_open.png",
+          "rect": [
+            1536,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "open",
+          "file": "frames/deflated/wide_open.png",
+          "rect": [
+            2048,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "open",
+          "file": "frames/deflated/narrow_open.png",
+          "rect": [
+            2560,
+            0,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "half",
+          "file": "frames/deflated/rest_half.png",
+          "rect": [
+            0,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "half",
+          "file": "frames/deflated/small_half.png",
+          "rect": [
+            512,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "half",
+          "file": "frames/deflated/open_half.png",
+          "rect": [
+            1024,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "half",
+          "file": "frames/deflated/round_half.png",
+          "rect": [
+            1536,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "half",
+          "file": "frames/deflated/wide_half.png",
+          "rect": [
+            2048,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "half",
+          "file": "frames/deflated/narrow_half.png",
+          "rect": [
+            2560,
+            512,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "rest",
+          "eyes": "closed",
+          "file": "frames/deflated/rest_closed.png",
+          "rect": [
+            0,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "small",
+          "eyes": "closed",
+          "file": "frames/deflated/small_closed.png",
+          "rect": [
+            512,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "open",
+          "eyes": "closed",
+          "file": "frames/deflated/open_closed.png",
+          "rect": [
+            1024,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "round",
+          "eyes": "closed",
+          "file": "frames/deflated/round_closed.png",
+          "rect": [
+            1536,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "wide",
+          "eyes": "closed",
+          "file": "frames/deflated/wide_closed.png",
+          "rect": [
+            2048,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        },
+        {
+          "mouth": "narrow",
+          "eyes": "closed",
+          "file": "frames/deflated/narrow_closed.png",
+          "rect": [
+            2560,
+            1024,
+            512,
+            512
+          ],
+          "duration_hint_ms": 85
+        }
+      ],
+      "anchor": {
+        "pivot": [
+          256.0,
+          490
+        ],
+        "mouth_center": [
+          300.41,
+          237.72
+        ],
+        "source_cell": 418
+      },
+      "registration": [
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 1.0
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.956
+        },
+        {
+          "offset": [
+            52,
+            0
+          ],
+          "correlation": 0.887
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.993
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.953
+        },
+        {
+          "offset": [
+            52,
+            0
+          ],
+          "correlation": 0.88
+        },
+        {
+          "offset": [
+            0,
+            0
+          ],
+          "correlation": 0.99
+        },
+        {
+          "offset": [
+            26,
+            0
+          ],
+          "correlation": 0.959
+        },
+        {
+          "offset": [
+            52,
+            0
+          ],
+          "correlation": 0.892
+        }
+      ],
+      "qa": {
+        "body_pixels_unchanged_outside_feature_masks": true,
+        "png_frames": 18,
+        "alpha_verified": true
+      },
+      "preview": {
+        "speaking": "previews/deflated.webp",
+        "idle": "previews/deflated_idle.webp"
+      }
+    }
+  ],
+  "rendering": {
+    "order": [
+      "base",
+      "eyes",
+      "mouth"
+    ],
+    "premultiplied_alpha": false,
+    "frame_selection": "emotion + mouth + eyes; use precomposited PNG frames or three-layer composition",
+    "native_illustration_cell_px": 418,
+    "export_note": "512px canvas adds transparent margins, not extra image detail."
+  },
+  "motion": {
+    "blink": {
+      "interval_ms": [
+        2600,
+        5800
+      ],
+      "sequence": [
+        {
+          "eyes": "half",
+          "duration_ms": 45
+        },
+        {
+          "eyes": "closed",
+          "duration_ms": 65
+        },
+        {
+          "eyes": "half",
+          "duration_ms": 45
+        },
+        {
+          "eyes": "open",
+          "duration_ms": 0
+        }
+      ],
+      "mouth_state_unchanged": true,
+      "double_blink_probability": 0.08
+    },
+    "speech": {
+      "amplitude_adapter": "mouth shapes are approximate. Select small/open with output-audio amplitude; use round/wide/narrow when timed phoneme/viseme cues are available.",
+      "silence_threshold_rms": 0.018,
+      "rms_open_threshold": 0.075,
+      "close_after_silence_ms": 110,
+      "min_state_hold_ms": 60,
+      "typical_hold_ms": [
+        70,
+        115
+      ],
+      "coarticulation_ms": 45,
+      "do_not_use_microphone_level_for_character_mouth": true,
+      "on_interruption": "return mouth to rest within 80ms; keep current emotion, optionally blink"
+    },
+    "idle": {
+      "breathing_period_ms": [
+        3600,
+        4800
+      ],
+      "translate_y_px": 1.5,
+      "scale_y_amplitude": 0.003,
+      "head_motion_rotation_degrees": 0.35,
+      "disable_motion_when_reduced_motion": true
+    },
+    "emotion_transition": {
+      "crossfade_ms": [
+        150,
+        220
+      ],
+      "minimum_hold_ms": 900,
+      "stable_body_per_emotion": true,
+      "small_cross_emotion_pose_changes_possible": true,
+      "priority": "use sustained dialogue intent, not emotion changes on each syllable"
+    }
+  },
+  "integration_contract": {
+    "source": "This is an asset contract, not an OpenAI API event schema. A future app supplies these fields.",
+    "example": {
+      "emotion": "flustered",
+      "mouth": "round",
+      "eyes": "half"
+    },
+    "fallback_emotion": "neutral",
+    "speaking_start": "rest → small → phoneme/amplitude-selected shape",
+    "speaking_end": "small → rest",
+    "network_or_processing_wait": "mouth rest; keep blink and subtle idle motion",
+    "warning": "Previews demonstrate animation only. No live audio or API connection is included."
+  },
+  "previews": {
+    "conversation": "previews/conversation.webp",
+    "audio_included": false,
+    "purpose": "Illustrative timing demo, not a recording or live audio synchronization."
+  },
+  "expanded_from": "v1; original eight emotion states retained unchanged",
+  "new_emotions": [
+    "surprised",
+    "suspicious",
+    "playful",
+    "relieved",
+    "shy",
+    "deflated"
+  ],
+  "reaction_clips": {
+    "hear_then_surprise": {
+      "file": "previews/reactions/hear_then_surprise.webp",
+      "playback": "once",
+      "audio": false,
+      "crossfade_ms": 140,
+      "sequence": [
+        {
+          "emotion": "neutral",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 850
+        },
+        {
+          "emotion": "neutral",
+          "mouth": "rest",
+          "eyes": "half",
+          "hold_ms": 45
+        },
+        {
+          "emotion": "neutral",
+          "mouth": "rest",
+          "eyes": "closed",
+          "hold_ms": 65
+        },
+        {
+          "emotion": "surprised",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 350
+        },
+        {
+          "emotion": "surprised",
+          "mouth": "open",
+          "eyes": "open",
+          "hold_ms": 100
+        },
+        {
+          "emotion": "surprised",
+          "mouth": "small",
+          "eyes": "open",
+          "hold_ms": 90
+        },
+        {
+          "emotion": "surprised",
+          "mouth": "round",
+          "eyes": "open",
+          "hold_ms": 100
+        },
+        {
+          "emotion": "surprised",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 650
+        },
+        {
+          "emotion": "relieved",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 850
+        }
+      ]
+    },
+    "tease_then_shy": {
+      "file": "previews/reactions/tease_then_shy.webp",
+      "playback": "once",
+      "audio": false,
+      "crossfade_ms": 140,
+      "sequence": [
+        {
+          "emotion": "playful",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 650
+        },
+        {
+          "emotion": "playful",
+          "mouth": "small",
+          "eyes": "open",
+          "hold_ms": 90
+        },
+        {
+          "emotion": "playful",
+          "mouth": "wide",
+          "eyes": "open",
+          "hold_ms": 90
+        },
+        {
+          "emotion": "playful",
+          "mouth": "open",
+          "eyes": "open",
+          "hold_ms": 85
+        },
+        {
+          "emotion": "playful",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 350
+        },
+        {
+          "emotion": "flustered",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 500
+        },
+        {
+          "emotion": "flustered",
+          "mouth": "small",
+          "eyes": "open",
+          "hold_ms": 90
+        },
+        {
+          "emotion": "flustered",
+          "mouth": "round",
+          "eyes": "open",
+          "hold_ms": 100
+        },
+        {
+          "emotion": "shy",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 550
+        },
+        {
+          "emotion": "shy",
+          "mouth": "rest",
+          "eyes": "half",
+          "hold_ms": 45
+        },
+        {
+          "emotion": "shy",
+          "mouth": "rest",
+          "eyes": "closed",
+          "hold_ms": 65
+        },
+        {
+          "emotion": "shy",
+          "mouth": "rest",
+          "eyes": "half",
+          "hold_ms": 45
+        },
+        {
+          "emotion": "shy",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 900
+        }
+      ]
+    },
+    "suspicion_to_relief": {
+      "file": "previews/reactions/suspicion_to_relief.webp",
+      "playback": "once",
+      "audio": false,
+      "crossfade_ms": 140,
+      "sequence": [
+        {
+          "emotion": "suspicious",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 850
+        },
+        {
+          "emotion": "suspicious",
+          "mouth": "rest",
+          "eyes": "half",
+          "hold_ms": 300
+        },
+        {
+          "emotion": "suspicious",
+          "mouth": "small",
+          "eyes": "open",
+          "hold_ms": 90
+        },
+        {
+          "emotion": "suspicious",
+          "mouth": "wide",
+          "eyes": "open",
+          "hold_ms": 110
+        },
+        {
+          "emotion": "suspicious",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 500
+        },
+        {
+          "emotion": "relieved",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 550
+        },
+        {
+          "emotion": "relieved",
+          "mouth": "rest",
+          "eyes": "half",
+          "hold_ms": 45
+        },
+        {
+          "emotion": "relieved",
+          "mouth": "rest",
+          "eyes": "closed",
+          "hold_ms": 65
+        },
+        {
+          "emotion": "relieved",
+          "mouth": "rest",
+          "eyes": "half",
+          "hold_ms": 45
+        },
+        {
+          "emotion": "relieved",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 900
+        }
+      ]
+    },
+    "defeat_then_pride": {
+      "file": "previews/reactions/defeat_then_pride.webp",
+      "playback": "once",
+      "audio": false,
+      "crossfade_ms": 140,
+      "sequence": [
+        {
+          "emotion": "smug",
+          "mouth": "wide",
+          "eyes": "open",
+          "hold_ms": 110
+        },
+        {
+          "emotion": "smug",
+          "mouth": "small",
+          "eyes": "open",
+          "hold_ms": 80
+        },
+        {
+          "emotion": "smug",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 450
+        },
+        {
+          "emotion": "deflated",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 850
+        },
+        {
+          "emotion": "deflated",
+          "mouth": "rest",
+          "eyes": "half",
+          "hold_ms": 600
+        },
+        {
+          "emotion": "deflated",
+          "mouth": "small",
+          "eyes": "open",
+          "hold_ms": 100
+        },
+        {
+          "emotion": "deflated",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 350
+        },
+        {
+          "emotion": "smug",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 900
+        }
+      ]
+    },
+    "worry_to_warmth": {
+      "file": "previews/reactions/worry_to_warmth.webp",
+      "playback": "once",
+      "audio": false,
+      "crossfade_ms": 140,
+      "sequence": [
+        {
+          "emotion": "worried",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 700
+        },
+        {
+          "emotion": "worried",
+          "mouth": "small",
+          "eyes": "open",
+          "hold_ms": 90
+        },
+        {
+          "emotion": "worried",
+          "mouth": "open",
+          "eyes": "open",
+          "hold_ms": 80
+        },
+        {
+          "emotion": "worried",
+          "mouth": "small",
+          "eyes": "open",
+          "hold_ms": 90
+        },
+        {
+          "emotion": "worried",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 400
+        },
+        {
+          "emotion": "relieved",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 650
+        },
+        {
+          "emotion": "shy",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 550
+        },
+        {
+          "emotion": "happy",
+          "mouth": "rest",
+          "eyes": "open",
+          "hold_ms": 800
+        }
+      ]
+    }
+  }
+}

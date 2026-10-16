@@ -1,0 +1,17 @@
+{
+  "name": "ts-malfoy",
+  "productName": "TS Malfoy",
+  "version": "0.1.0",
+  "description": "로컬에서 돌아가는 AI TS 말포이 (비공식 팬 프로젝트)",
+  "private": true,
+  "type": "module",
+  "main": "main.mjs",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "devDependencies": {
+    "electron": "44.5.1"
+  },
+  "license": "GPL-3.0-only"
+}

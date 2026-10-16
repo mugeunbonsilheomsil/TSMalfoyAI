@@ -1,0 +1,60 @@
+# 의존성·빌드
+node_modules/
+dist/
+**/build/
+__pycache__/
+*.pyc
+
+# 모델·가중치 (GitHub Releases 로 따로 배포)
+*.gguf
+*.safetensors
+*.pt
+*.bin
+
+# 학습 산출물 (스크립트만 저장소에)
+training/data/
+training/data_v2/
+training/data_v3/
+training/voice/raw/
+training/voice/clean/
+training/voice/merged/
+training/voice/gguf/
+training/voice/lora_*/
+training/voice/bad_run1/
+training/voice/ab/
+training/voice/app_test/
+training/voice/*.log
+training/voice/*.json
+!training/voice/texts.json
+training/voice/*.wav
+training/voice/*.txt
+training/voice/*.ps1
+persona/lora/
+persona/*.log
+
+# 개발·촬영·영상 작업물 (채널 작업, 저장소 대상 아님)
+_dev/
+video/
+gpt/
+installer/
+
+# llama.cpp 는 native/build.bat 이 고정 커밋으로 받아 온다. 우리 코드는 native/tts-server 뿐
+native/llama.cpp/
+native/build.log
+native/src/
+
+# 에셋: 앱이 쓰는 아바타 프레임과 목소리 설계 기록만
+assets/art/
+assets/voice/
+assets/animation/*
+!assets/animation/v2/
+assets/animation/v2/*
+!assets/animation/v2/animation.json
+!assets/animation/v2/frames/
+
+# 앱 안: 목소리 참조 음성은 포함, 테스트 음성은 제외
+app/persona/voice/*.json
+
+# 디버깅용 임시 스크립트
+training/voice/debug_*.py
+training/voice/ab_lines.py

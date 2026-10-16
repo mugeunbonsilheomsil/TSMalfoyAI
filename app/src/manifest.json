@@ -1,0 +1,111 @@
+{
+ "version": 1,
+ "runtimes": {
+  "cuda": {
+   "label": "NVIDIA CUDA 12.4",
+   "files": [
+    {
+     "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11612/llama-b11612-bin-win-cuda-12.4-x64.zip",
+     "size": 265262750,
+     "sha256": "4c6d8afd23475f6eded74c4a3019a6746aab83183a3158f3fc4de1cb7c4f5f12",
+     "unzip": true
+    },
+    {
+     "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11612/cudart-llama-bin-win-cuda-12.4-x64.zip",
+     "size": 391443627,
+     "sha256": "8c79a9b226de4b3cacfd1f83d24f962d0773be79f1e7b75c6af4ded7e32ae1d6",
+     "unzip": true
+    }
+   ]
+  },
+  "vulkan": {
+   "label": "Vulkan (AMD / Intel / NVIDIA)",
+   "files": [
+    {
+     "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11612/llama-b11612-bin-win-vulkan-x64.zip",
+     "size": 32171493,
+     "sha256": "e62f0674970a70b007fa3c425d191ceacabbf02406d6c9ac8b6f27cd23abe9e9",
+     "unzip": true
+    }
+   ]
+  },
+  "cpu": {
+   "label": "CPU",
+   "files": [
+    {
+     "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11612/llama-b11612-bin-win-cpu-x64.zip",
+     "size": 19553433,
+     "sha256": "b8456ccb1be98365a5a2227efa5c495508a6a3ebce881c6189a1dbeaaa170b69",
+     "unzip": true
+    }
+   ]
+  }
+ },
+ "models": {
+  "q4": {
+   "label": "표준 — Gemma 4 E4B QAT Q4_0",
+   "minVramGB": 6,
+   "file": {
+    "name": "gemma-4-E4B_q4_0-it.gguf",
+    "url": "https://huggingface.co/google/gemma-4-E4B-it-qat-q4_0-gguf/resolve/main/gemma-4-E4B_q4_0-it.gguf",
+    "size": 5154941280,
+    "sha256": "676c35070db6dbe52f93e9c864ee0fba4eddea94b9c875d9cb10daff453fbaee"
+   }
+  },
+  "q2": {
+   "label": "경량 — Gemma 4 E4B QAT Q2_K_XL",
+   "minVramGB": 0,
+   "file": {
+    "name": "gemma-4-E4B-it-qat-UD-Q2_K_XL.gguf",
+    "url": "https://huggingface.co/unsloth/gemma-4-E4B-it-qat-GGUF/resolve/main/gemma-4-E4B-it-qat-UD-Q2_K_XL.gguf",
+    "size": 3219532192,
+    "sha256": "79dde517866cfbb5c00230b530de17910fc7fc78f8827554d0e14281ce5faf03"
+   }
+  }
+ },
+ "draft": {
+  "label": "MTP 가속 (추측 디코딩)",
+  "file": {
+   "name": "mtp-gemma-4-E4B-it.gguf",
+   "url": "https://huggingface.co/unsloth/gemma-4-E4B-it-qat-GGUF/resolve/main/mtp-gemma-4-E4B-it.gguf",
+   "size": 59678016,
+   "sha256": "423074e537504b4f9ec5eafed5c639fac82c96631626efccacdd3c4039b20605"
+  }
+ },
+ "mmproj": {
+  "label": "이미지·음성 이해 (Gemma 4 mmproj)",
+  "file": {
+   "name": "gemma-4-E4B-it-mmproj.gguf",
+   "url": "https://huggingface.co/google/gemma-4-E4B-it-qat-q4_0-gguf/resolve/main/gemma-4-E4B-it-mmproj.gguf",
+   "size": 991552256,
+   "sha256": "7498a37cb619e55f2fcf87eb931f56e99389ed6d432e4c5c66110694c0d65578"
+  }
+ },
+ "voice": {
+  "label": "말포이 목소리 (Qwen3-TTS 1.7B 미세조정, Apache-2.0)",
+  "files": [
+   {
+    "name": "malfoy-tts-Q4_K_M.gguf",
+    "url": "{release}/malfoy-tts-Q4_K_M.gguf",
+    "size": 1035965376,
+    "sha256": "5db52b0e395c83e4d6c839bc251c9cdf499621f8ff55fd629d3a148127b7b4aa"
+   },
+   {
+    "name": "mmproj-malfoy-tts-Q8_0.gguf",
+    "url": "{release}/mmproj-malfoy-tts-Q8_0.gguf",
+    "size": 492625888,
+    "sha256": "f5215c34096d3663e559e8f1f9015414dc980daf732a7468304e59df8cdf0be2"
+   }
+  ]
+ },
+ "release": "https://github.com/mugeunbonsilheomsil/TSMalfoyAI/releases/download/models-v1",
+ "persona": {
+  "label": "말포이 성격 (LoRA)",
+  "file": {
+   "name": "malfoy-lora.gguf",
+   "url": "{release}/malfoy-lora.gguf",
+   "size": 69799008,
+   "sha256": "acb6e9e89c31187b403da2fef81d7445ee251f898b02159b2ceb1ceb9b8e91ba"
+  }
+ }
+}

@@ -1,0 +1,12 @@
+diff --git a/tools/CMakeLists.txt b/tools/CMakeLists.txt
+index c8ad1db..0bd152f 100644
+--- a/tools/CMakeLists.txt
++++ b/tools/CMakeLists.txt
+@@ -28,6 +28,7 @@ else()
+     endif()
+     add_subdirectory(tokenize)
+     add_subdirectory(tts)
++    add_subdirectory(tts-server)
+     add_subdirectory(mtmd)
+     if (GGML_RPC)
+         add_subdirectory(rpc)

@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob: tsm-avatar:; media-src 'self' data: blob:; style-src 'self'; font-src 'self'; script-src 'self'">
+<title>TS Malfoy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg class="sprite" aria-hidden="true">
+  <defs>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20.5 11.6a8.1 8.1 0 0 1-11.8 7.2L3.5 20l1.3-4.6A8.1 8.1 0 1 1 20.5 11.6Z"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5Z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5M8 7h8M8 10.5h6"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.5 7 8.5 6 8.5-6"/></symbol>
+    <symbol id="i-gear" viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+    <symbol id="i-stop" viewBox="0 0 24 24"><rect x="7" y="7" width="10" height="10" rx="2" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 8V6.5A2.5 2.5 0 0 0 13.5 4h-7A2.5 2.5 0 0 0 4 6.5v7A2.5 2.5 0 0 0 6.5 16H8"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14.6-4.5M4 4v3.5h3.5M4 13a8 8 0 0 0 14.6 4.5M20 20v-3.5h-3.5"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M7 11v9H4.5A1.5 1.5 0 0 1 3 18.5v-6A1.5 1.5 0 0 1 4.5 11Zm0 0 4-7.5a2 2 0 0 1 3.7 1.4L14 9h5a2 2 0 0 1 2 2.3l-1.2 7A2 2 0 0 1 17.8 20H7"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M17 13V4h2.5A1.5 1.5 0 0 1 21 5.5v6a1.5 1.5 0 0 1-1.5 1.5Zm0 0-4 7.5a2 2 0 0 1-3.7-1.4L10 15H5a2 2 0 0 1-2-2.3l1.2-7A2 2 0 0 1 6.2 4H17"/></symbol>
+    <symbol id="i-speaker" viewBox="0 0 24 24"><path d="M4 9.5v5h3.5L12 19V5L7.5 9.5Z"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11"/></symbol>
+    <symbol id="i-wave" viewBox="0 0 24 24"><path d="M4 10v4M8 7v10M12 4v16M16 7v10M20 10v4"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21"/></symbol>
+    <symbol id="i-micoff" viewBox="0 0 24 24"><path d="M15 9V6a3 3 0 0 0-5.6-1.5M9 9v2a3 3 0 0 0 4.6 2.5M5.5 11a6.5 6.5 0 0 0 10.8 4.9M18.5 11a6.5 6.5 0 0 1-.4 2.2M12 17.5V21M3 3l18 18"/></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2.5"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4.5 7h15M10 11v6M14 11v6M6.5 7l1 12.5a1.5 1.5 0 0 0 1.5 1.5h6a1.5 1.5 0 0 0 1.5-1.5L17.5 7M9.5 7V4.5h5V7"/></symbol>
+    <symbol id="i-chev-l" viewBox="0 0 24 24"><path d="m14.5 6-6 6 6 6"/></symbol>
+    <symbol id="i-chev-r" viewBox="0 0 24 24"><path d="m9.5 6 6 6-6 6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5M12 8h.01"/></symbol>
+    <symbol id="i-gpu" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="12" rx="2"/><circle cx="9" cy="12" r="2.5"/><path d="M15 10h3M15 14h3M7 18v2M12 18v2M17 18v2"/></symbol>
+    <symbol id="i-ram" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="9" rx="1.5"/><path d="M7 10v3M11 10v3M15 10v3M6 16v2M18 16v2"/></symbol>
+    <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24"><path d="M3.5 7.5A2 2 0 0 1 5.5 5.5h3.6l2 2h7.4a2 2 0 0 1 2 2v7.5a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2Z"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 3 5 13.5h6L10.5 21 19 10.5h-6Z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3.5 5 6v5.5c0 4.2 2.9 7.6 7 9 4.1-1.4 7-4.8 7-9V6Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3.5 13.8 9 19.5 11 13.8 13 12 18.5 10.2 13 4.5 11 10.2 9Z"/><path d="M19 3v3M17.5 4.5h3"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11M7 10.5l5 5 5-5M5 20h14"/></symbol>
+  </defs>
+</svg>
+<div class="titlebar" aria-hidden="true"></div>
+
+<!-- ───────── 설치 ───────── -->
+<section id="setup" class="setup" hidden>
+  <div class="setup-wrap">
+    <header class="setup-hero">
+      <img src="icon.png" alt="" class="hero-icon">
+      <div><h1>설치</h1><p class="t2">이 PC에서만 돌아갑니다. 대화는 밖으로 나가지 않습니다.</p></div>
+      <ol class="stepper" id="stepper"><li class="on">사양</li><li>구성</li><li>설치</li></ol>
+    </header>
+    <div id="setup-plan" class="setup-body">
+      <div class="tiles" id="hw-tiles"><div class="tile skeleton"></div><div class="tile skeleton"></div><div class="tile skeleton"></div></div>
+      <div class="callout" id="hw-reco" hidden><svg class="ic"><use href="#i-shield"/></svg><span></span></div>
+      <h2 class="sec">엔진</h2><div class="options" id="opt-runtime" role="radiogroup"></div>
+      <h2 class="sec">모델</h2><div class="options two" id="opt-model" role="radiogroup"></div>
+      <div class="row-card"><div class="row-main"><svg class="ic"><use href="#i-bolt"/></svg><div><strong>MTP 가속</strong><span class="t3">추측 디코딩으로 약 25% 빠르게 · 60 MB</span></div></div><label class="switch"><input type="checkbox" id="chk-draft"><span></span></label></div>
+      <div class="row-card"><div class="row-main"><svg class="ic"><use href="#i-folder"/></svg><div><strong>설치 위치</strong><span class="t3 mono" id="install-dir"></span></div></div><button class="btn ghost sm" id="btn-dir">변경</button></div>
+      <footer class="setup-foot"><div class="sum"><span class="t3">받을 용량</span><strong class="num" id="sum-size">–</strong><span class="chip" id="sum-free"></span></div><button class="btn primary lg" id="btn-install">설치 시작 <svg class="ic"><use href="#i-arrow"/></svg></button></footer>
+      <p class="legal">비공식 팬 프로젝트 · 무료 배포. 모델 Google Gemma 4 (Apache-2.0), 엔진 llama.cpp (MIT). 해리 포터 관련 권리는 각 권리자에게 있습니다.</p>
+    </div>
+    <div id="setup-run" class="setup-body" hidden>
+      <div class="big-progress"><div class="pct num" id="pct">0<small>%</small></div><div class="t2" id="prog-line">준비 중…</div></div>
+      <div class="bar"><div id="bar"></div></div>
+      <ol class="task-list" id="steps">
+        <li data-step="runtime"><i></i><span>엔진 받기</span><em class="t3"></em></li>
+        <li data-step="model"><i></i><span>모델 받기</span><em class="t3"></em></li>
+        <li data-step="draft"><i></i><span>가속 파일 받기</span><em class="t3"></em></li>
+        <li data-step="check"><i></i><span>첫 실행 확인</span><em class="t3"></em></li>
+      </ol>
+      <div class="callout danger" id="setup-error" hidden><svg class="ic"><use href="#i-info"/></svg><span></span></div>
+      <footer class="setup-foot"><span class="t3 small">끊겨도 다시 시도하면 이어서 받습니다.</span><div class="row"><button class="btn ghost" id="btn-cancel">취소</button><button class="btn primary" id="btn-retry" hidden><svg class="ic"><use href="#i-refresh"/></svg> 다시 시도</button></div></footer>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 본 화면 ───────── -->
+<section id="main" class="app" hidden>
+  <nav class="side">
+    <div class="side-top">
+      <button class="btn new" id="btn-new-chat"><svg class="ic"><use href="#i-plus"/></svg>새 대화</button>
+      <button class="btn ghost icon" id="btn-new-story" title="새 스토리"><svg class="ic"><use href="#i-book"/></svg></button>
+    </div>
+    <div class="conv-list" id="conv-list"></div>
+    <div class="side-foot">
+      <button class="nav" data-view="mail"><svg class="ic"><use href="#i-mail"/></svg><span>우편함</span><b class="badge" id="mail-badge" hidden></b></button>
+      <button class="nav" data-view="settings"><svg class="ic"><use href="#i-gear"/></svg><span>설정</span></button>
+    </div>
+  </nav>
+
+  <main class="content">
+    <!-- 대화 / 스토리 -->
+    <div class="view" id="view-chat">
+      <header class="topbar">
+        <div class="avatar"><span><img src="tsm-avatar://assets/frames/neutral/rest_open.png" alt=""></span></div>
+        <div class="who"><strong id="char-name">드레이코 말포이</strong><span class="t3" id="who-sub">슬리데린</span></div>
+        <div class="top-actions">
+          <button class="btn ghost sm" id="btn-book" hidden><svg class="ic"><use href="#i-book"/></svg> 이야기 읽기</button>
+          <button class="btn ghost sm" id="btn-voice"><svg class="ic"><use href="#i-wave"/></svg> 음성 대화</button>
+        </div>
+      </header>
+      <div class="messages" id="messages"></div>
+      <div class="dock">
+        <div class="suggest-row" id="suggest-row" hidden></div>
+        <form class="composer" id="composer">
+          <div class="attach-row" id="attach-row" hidden></div>
+          <div class="composer-main">
+            <button class="cbtn" id="btn-attach" type="button" title="사진 첨부"><svg class="ic"><use href="#i-image"/></svg></button>
+            <textarea id="input" rows="1" placeholder="말포이에게 말하기…" maxlength="4000"></textarea>
+            <button class="cbtn" id="btn-mic" type="button" title="음성 대화"><svg class="ic"><use href="#i-mic"/></svg></button>
+            <button class="send" id="btn-send" type="submit" disabled aria-label="보내기"><svg class="ic"><use href="#i-send"/></svg></button>
+            <button class="send stop" id="btn-stop" type="button" hidden aria-label="멈춤"><svg class="ic"><use href="#i-stop"/></svg></button>
+          </div>
+          <input type="file" id="file" accept="image/*" multiple hidden>
+        </form>
+        <div class="hint t3" id="hint"><span><kbd>Enter</kbd> 보내기 · <kbd>Shift</kbd>+<kbd>Enter</kbd> 줄바꿈 · 사진은 붙여넣기도 됩니다</span><span>이 PC에서 생성됨</span></div>
+      </div>
+
+      <!-- 라이브 음성 -->
+      <div class="voice" id="voice" hidden>
+        <div class="voice-stage">
+          <div class="orb" id="orb"><div class="voice-face"><img id="voice-avatar" class="voice-avatar" src="tsm-avatar://assets/frames/neutral/rest_open.png" alt="드레이코 말포이"></div></div>
+          <div class="voice-state" id="voice-state">연결 중…</div>
+          <p class="voice-caption" id="voice-caption"></p>
+          <div class="voice-install" id="voice-install" hidden>
+            <p class="t2">말포이 목소리 파일이 필요합니다 (<span id="voice-size"></span>). 한 번만 받으면 됩니다.</p>
+            <div class="bar"><div id="voice-bar"></div></div>
+            <button class="btn primary" id="btn-voice-install"><svg class="ic"><use href="#i-download"/></svg> 받기</button>
+          </div>
+        </div>
+        <div class="voice-controls">
+          <button class="vbtn" id="btn-vmute" title="마이크 끄기"><svg class="ic"><use href="#i-mic"/></svg></button>
+          <button class="vbtn end" id="btn-vend" title="끝내기"><svg class="ic"><use href="#i-x"/></svg></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 우편함 -->
+    <div class="view page" id="view-mail" hidden>
+      <header class="page-head"><h1>우편함</h1><p class="t2">말포이가 보낸 부엉이 편지</p></header>
+      <div class="mail-layout">
+        <ul class="mail-list" id="mail-list"></ul>
+        <div class="letter-stage" id="letter-stage"><div class="empty-state"><svg class="ic xl"><use href="#i-mail"/></svg><p class="t2">편지를 고르세요</p></div></div>
+      </div>
+    </div>
+
+    <!-- 설정 -->
+    <div class="view page" id="view-settings" hidden>
+      <header class="page-head"><h1>설정</h1></header>
+      <div class="settings">
+        <section class="group">
+          <h2>일반</h2>
+          <div class="srow"><div><strong>테마</strong></div><div class="seg" id="set-theme"><button data-v="system">시스템</button><button data-v="dark">다크</button><button data-v="light">라이트</button></div></div>
+          <div class="srow"><div><strong>부엉이 편지</strong><span class="t3">가끔 말포이가 먼저 편지를 보냅니다. 창을 닫아도 트레이에서 기다립니다</span></div><label class="switch"><input type="checkbox" id="set-owl"><span></span></label></div>
+          <div class="srow"><div><strong>편지 받지 않는 시간</strong></div><div class="row"><select id="set-qs"></select><span class="t3">–</span><select id="set-qe"></select></div></div>
+        </section>
+        <section class="group">
+          <h2>성능</h2>
+          <div class="srow"><div><strong>대화 기억 길이</strong><span class="t3">길수록 요약 없이 더 오래 기억하지만 그래픽카드 메모리를 더 씁니다</span></div><select id="set-ctx"></select></div>
+          <div class="srow"><div><strong>메모리 절약</strong><span class="t3">절약은 대화 기억을 4비트로 담아 메모리를 줄입니다. 품질 차이는 거의 없습니다</span></div><div class="seg" id="set-kv"><button data-v="auto">자동</button><button data-v="q8_0">표준</button><button data-v="q4_0">절약</button></div></div>
+          <p class="t3 perf-info" id="perf-info"></p>
+        </section>
+        <section class="group">
+          <h2>데이터</h2>
+          <div class="srow"><div><strong>데이터 폴더</strong><span class="t3">대화와 기억은 이 PC에만 저장됩니다</span></div><button class="btn ghost sm" id="btn-open-data">열기</button></div>
+          <div class="srow"><div><strong>기억 지우기</strong><span class="t3">말포이가 포터에 대해 기억하는 것을 지웁니다. 대화는 남습니다</span></div><button class="btn ghost sm" id="btn-forget">지우기</button></div>
+          <div class="srow"><div><strong>모두 지우기</strong><span class="t3">모든 대화·스토리·기억·편지를 지웁니다</span></div><button class="btn danger sm" id="btn-delete-all"><svg class="ic"><use href="#i-trash"/></svg> 모두 지우기</button></div>
+          <div class="srow"><div><strong>구성 다시 선택</strong><span class="t3">엔진·모델을 바꿉니다</span></div><button class="btn ghost sm" id="btn-reinstall">다시 선택</button></div>
+        </section>
+        <p class="legal" id="about"></p>
+      </div>
+    </div>
+  </main>
+</section>
+
+<!-- 새 스토리 -->
+<dialog id="story-dialog" class="modal wide">
+  <div class="modal-body">
+    <header class="modal-head"><div><h3>새 스토리</h3><p class="t2">원작의 그 순간에서 시작하거나, 말포이에게 상황을 맡기세요. 이야기는 계속 이어지고 기록됩니다.</p></div><button class="btn ghost icon" id="btn-story-close"><svg class="ic"><use href="#i-x"/></svg></button></header>
+    <div class="story-seed">
+      <svg class="ic"><use href="#i-sparkle"/></svg>
+      <input id="story-seed" placeholder="어떤 상황에서 시작할까요? 비워 두면 말포이가 정합니다">
+      <button class="btn primary" id="btn-story-ai">만들기</button>
+    </div>
+    <h4 class="sec">원작 따라가기</h4>
+    <div class="point-grid" id="point-grid"></div>
+  </div>
+</dialog>
+
+<!-- 이야기 읽기 -->
+<dialog id="book-dialog" class="modal book">
+  <div class="modal-body">
+    <header class="modal-head"><div><h3 id="book-title"></h3><p class="t2" id="book-meta"></p></div><div class="row"><button class="btn ghost sm" id="btn-book-save"><svg class="ic"><use href="#i-download"/></svg> 텍스트로 저장</button><button class="btn ghost icon" id="btn-book-close"><svg class="ic"><use href="#i-x"/></svg></button></div></header>
+    <article class="book-text" id="book-text"></article>
+  </div>
+</dialog>
+
+<dialog id="confirm" class="modal">
+  <form method="dialog" class="modal-body">
+    <h3 id="confirm-title"></h3><p class="t2" id="confirm-body"></p>
+    <div class="row end"><button class="btn ghost" value="no">취소</button><button class="btn primary" value="yes" id="confirm-ok">확인</button></div>
+  </form>
+</dialog>
+<div class="toasts" id="toasts"></div>
+<script src="avatar.js"></script>
+<script src="voice.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

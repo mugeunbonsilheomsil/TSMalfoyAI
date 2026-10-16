@@ -1,0 +1,4205 @@
+{
+  "note": "JSONL 본문은 stage/messages 스키마를 유지한다. 로더는 이 인덱스의 학년·사건 조건을 시스템 상태로 적용해야 한다.",
+  "records": [
+    {
+      "line": 1,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 2,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 3,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 4,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 5,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 6,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "1학년 옷가게 첫 만남 이후",
+      "messages": 2
+    },
+    {
+      "line": 7,
+      "category": "상처·위로",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 8,
+      "category": "선물·칭찬 당황",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 9,
+      "category": "부적절한 요청 회피",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 10,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 11,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 12,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 13,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 14,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 15,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 6
+    },
+    {
+      "line": 16,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "1학년 옷가게 첫 만남 이후",
+      "messages": 2
+    },
+    {
+      "line": 17,
+      "category": "상처·위로",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 18,
+      "category": "선물·칭찬 당황",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 19,
+      "category": "부적절한 요청 회피",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 20,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 21,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 22,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 23,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 24,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 25,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 26,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "1학년 옷가게 첫 만남 이후",
+      "messages": 2
+    },
+    {
+      "line": 27,
+      "category": "상처·위로",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 28,
+      "category": "선물·칭찬 당황",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 29,
+      "category": "부적절한 요청 회피",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 30,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 31,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 32,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 33,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 34,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 35,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 36,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "1학년 옷가게 첫 만남 이후",
+      "messages": 2
+    },
+    {
+      "line": 37,
+      "category": "상처·위로",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 38,
+      "category": "선물·칭찬 당황",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 39,
+      "category": "부적절한 요청 회피",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 40,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 41,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 42,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 43,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 44,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 45,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 46,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "1학년 옷가게 첫 만남 이후",
+      "messages": 2
+    },
+    {
+      "line": 47,
+      "category": "상처·위로",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 48,
+      "category": "선물·칭찬 당황",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 49,
+      "category": "부적절한 요청 회피",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 50,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 51,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 52,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 53,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 54,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 55,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 56,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "1학년 열차 악수 거절 이후",
+      "messages": 2
+    },
+    {
+      "line": 57,
+      "category": "상처·위로",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 58,
+      "category": "선물·칭찬 당황",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 59,
+      "category": "부적절한 요청 회피",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 60,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 61,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 62,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 63,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 64,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 65,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 66,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "1학년 열차 악수 거절 이후",
+      "messages": 2
+    },
+    {
+      "line": 67,
+      "category": "상처·위로",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 68,
+      "category": "선물·칭찬 당황",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 69,
+      "category": "부적절한 요청 회피",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 70,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 71,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 72,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 73,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 74,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 75,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 76,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "1학년 열차 악수 거절 이후",
+      "messages": 2
+    },
+    {
+      "line": 77,
+      "category": "상처·위로",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 78,
+      "category": "선물·칭찬 당황",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 79,
+      "category": "부적절한 요청 회피",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 80,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 81,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 82,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 83,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 84,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 85,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 86,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "1학년 열차 악수 거절 이후",
+      "messages": 2
+    },
+    {
+      "line": 87,
+      "category": "상처·위로",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 88,
+      "category": "선물·칭찬 당황",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 89,
+      "category": "부적절한 요청 회피",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 90,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 91,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 92,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 93,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 94,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 95,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 96,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "1학년 열차 악수 거절 이후",
+      "messages": 2
+    },
+    {
+      "line": 97,
+      "category": "상처·위로",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 98,
+      "category": "선물·칭찬 당황",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 99,
+      "category": "부적절한 요청 회피",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 100,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 101,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 102,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 103,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 104,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 105,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 106,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "1학년 기억구슬·발탁 이후",
+      "messages": 2
+    },
+    {
+      "line": 107,
+      "category": "상처·위로",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 108,
+      "category": "선물·칭찬 당황",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 109,
+      "category": "부적절한 요청 회피",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 110,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 111,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 112,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 113,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 114,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 115,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 116,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "1학년 기억구슬·발탁 이후",
+      "messages": 2
+    },
+    {
+      "line": 117,
+      "category": "상처·위로",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 118,
+      "category": "선물·칭찬 당황",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 119,
+      "category": "부적절한 요청 회피",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 120,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 121,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 122,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 123,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 124,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 125,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 126,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "1학년 기억구슬·발탁 이후",
+      "messages": 2
+    },
+    {
+      "line": 127,
+      "category": "상처·위로",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 128,
+      "category": "선물·칭찬 당황",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 129,
+      "category": "부적절한 요청 회피",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 130,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 131,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 132,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 133,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 134,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 135,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 136,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "1학년 기억구슬·발탁 이후",
+      "messages": 2
+    },
+    {
+      "line": 137,
+      "category": "상처·위로",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 138,
+      "category": "선물·칭찬 당황",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 139,
+      "category": "부적절한 요청 회피",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 140,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 141,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 142,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 143,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 144,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 145,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 146,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "1학년 기억구슬·발탁 이후",
+      "messages": 2
+    },
+    {
+      "line": 147,
+      "category": "상처·위로",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 148,
+      "category": "선물·칭찬 당황",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 149,
+      "category": "부적절한 요청 회피",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 150,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 151,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 152,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 153,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 154,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 155,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 156,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "1학년 금지된 숲 벌칙 이후",
+      "messages": 2
+    },
+    {
+      "line": 157,
+      "category": "상처·위로",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 158,
+      "category": "선물·칭찬 당황",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 159,
+      "category": "부적절한 요청 회피",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 160,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 161,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 162,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 163,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 164,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 165,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 166,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "1학년 금지된 숲 벌칙 이후",
+      "messages": 2
+    },
+    {
+      "line": 167,
+      "category": "상처·위로",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 168,
+      "category": "선물·칭찬 당황",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 169,
+      "category": "부적절한 요청 회피",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 170,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 171,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 172,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 173,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 174,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 175,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 176,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "1학년 금지된 숲 벌칙 이후",
+      "messages": 2
+    },
+    {
+      "line": 177,
+      "category": "상처·위로",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 178,
+      "category": "선물·칭찬 당황",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 179,
+      "category": "부적절한 요청 회피",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 180,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 181,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 182,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 183,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 184,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 185,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 186,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "1학년 금지된 숲 벌칙 이후",
+      "messages": 2
+    },
+    {
+      "line": 187,
+      "category": "상처·위로",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 188,
+      "category": "선물·칭찬 당황",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 189,
+      "category": "부적절한 요청 회피",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 190,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 191,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 192,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 193,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 194,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 195,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 196,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "1학년 금지된 숲 벌칙 이후",
+      "messages": 2
+    },
+    {
+      "line": 197,
+      "category": "상처·위로",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 198,
+      "category": "선물·칭찬 당황",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 199,
+      "category": "부적절한 요청 회피",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 200,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 201,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 202,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 203,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 204,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 205,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 206,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "2학년 결투 클럽 이후",
+      "messages": 2
+    },
+    {
+      "line": 207,
+      "category": "상처·위로",
+      "stage": "앙숙",
+      "timeline_gate": "6학년 섹툼셈프라 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 208,
+      "category": "선물·칭찬 당황",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 209,
+      "category": "부적절한 요청 회피",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 210,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 211,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 212,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 213,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 214,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 215,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 216,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "2학년 결투 클럽 이후",
+      "messages": 2
+    },
+    {
+      "line": 217,
+      "category": "상처·위로",
+      "stage": "라이벌",
+      "timeline_gate": "6학년 섹툼셈프라 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 218,
+      "category": "선물·칭찬 당황",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 219,
+      "category": "부적절한 요청 회피",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 220,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 221,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 222,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 223,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 224,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 225,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 226,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "2학년 결투 클럽 이후",
+      "messages": 2
+    },
+    {
+      "line": 227,
+      "category": "상처·위로",
+      "stage": "들킴",
+      "timeline_gate": "6학년 섹툼셈프라 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 228,
+      "category": "선물·칭찬 당황",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 229,
+      "category": "부적절한 요청 회피",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 230,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 231,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 232,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 233,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 234,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 235,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 236,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "2학년 결투 클럽 이후",
+      "messages": 2
+    },
+    {
+      "line": 237,
+      "category": "상처·위로",
+      "stage": "휴전",
+      "timeline_gate": "6학년 섹툼셈프라 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 238,
+      "category": "선물·칭찬 당황",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 239,
+      "category": "부적절한 요청 회피",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 240,
+      "category": "포터의 현실 생활 받아치기",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 241,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 242,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 243,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 244,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 245,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 246,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "2학년 결투 클럽 이후",
+      "messages": 2
+    },
+    {
+      "line": 247,
+      "category": "상처·위로",
+      "stage": "특별함",
+      "timeline_gate": "6학년 섹툼셈프라 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 248,
+      "category": "선물·칭찬 당황",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 249,
+      "category": "부적절한 요청 회피",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 250,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 251,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 252,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "4학년 성탄절 무도회 이후; 말포이의 TS 무도회 상대는 미확정",
+      "messages": 2
+    },
+    {
+      "line": 253,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 254,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 255,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "3학년 벅빅 사건 이후",
+      "messages": 2
+    },
+    {
+      "line": 256,
+      "category": "상처·위로",
+      "stage": "앙숙",
+      "timeline_gate": "5학년 말 루시우스 체포 이후",
+      "messages": 2
+    },
+    {
+      "line": 257,
+      "category": "선물·칭찬 당황",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 258,
+      "category": "부적절한 요청 회피",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 259,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 260,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 261,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "4학년 성탄절 무도회 이후; 말포이의 TS 무도회 상대는 미확정",
+      "messages": 2
+    },
+    {
+      "line": 262,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 263,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 264,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "3학년 벅빅 사건 이후",
+      "messages": 2
+    },
+    {
+      "line": 265,
+      "category": "상처·위로",
+      "stage": "라이벌",
+      "timeline_gate": "5학년 말 루시우스 체포 이후",
+      "messages": 2
+    },
+    {
+      "line": 266,
+      "category": "선물·칭찬 당황",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 267,
+      "category": "부적절한 요청 회피",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 268,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 269,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 270,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "4학년 성탄절 무도회 이후; 말포이의 TS 무도회 상대는 미확정",
+      "messages": 2
+    },
+    {
+      "line": 271,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 272,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 273,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "3학년 벅빅 사건 이후",
+      "messages": 2
+    },
+    {
+      "line": 274,
+      "category": "상처·위로",
+      "stage": "들킴",
+      "timeline_gate": "5학년 말 루시우스 체포 이후",
+      "messages": 2
+    },
+    {
+      "line": 275,
+      "category": "선물·칭찬 당황",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 276,
+      "category": "부적절한 요청 회피",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 277,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 278,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 279,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "4학년 성탄절 무도회 이후; 말포이의 TS 무도회 상대는 미확정",
+      "messages": 2
+    },
+    {
+      "line": 280,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 281,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 282,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "3학년 벅빅 사건 이후",
+      "messages": 2
+    },
+    {
+      "line": 283,
+      "category": "상처·위로",
+      "stage": "휴전",
+      "timeline_gate": "5학년 말 루시우스 체포 이후",
+      "messages": 2
+    },
+    {
+      "line": 284,
+      "category": "선물·칭찬 당황",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 285,
+      "category": "부적절한 요청 회피",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 286,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 287,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 288,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "4학년 성탄절 무도회 이후; 말포이의 TS 무도회 상대는 미확정",
+      "messages": 2
+    },
+    {
+      "line": 289,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 290,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 291,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "3학년 벅빅 사건 이후",
+      "messages": 2
+    },
+    {
+      "line": 292,
+      "category": "상처·위로",
+      "stage": "특별함",
+      "timeline_gate": "5학년 말 루시우스 체포 이후",
+      "messages": 2
+    },
+    {
+      "line": 293,
+      "category": "선물·칭찬 당황",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 294,
+      "category": "부적절한 요청 회피",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 295,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 296,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 297,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 298,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 299,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 300,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "4학년 강제 족제비 변신 이후",
+      "messages": 2
+    },
+    {
+      "line": 301,
+      "category": "상처·위로",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 302,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 303,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 304,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 305,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 306,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 307,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "4학년 강제 족제비 변신 이후",
+      "messages": 2
+    },
+    {
+      "line": 308,
+      "category": "상처·위로",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 309,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 310,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 311,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 312,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 313,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 314,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "4학년 강제 족제비 변신 이후",
+      "messages": 2
+    },
+    {
+      "line": 315,
+      "category": "상처·위로",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 316,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 317,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 318,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 319,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 320,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 321,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "4학년 강제 족제비 변신 이후",
+      "messages": 2
+    },
+    {
+      "line": 322,
+      "category": "상처·위로",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 323,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 324,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 325,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 326,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 327,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 328,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "4학년 강제 족제비 변신 이후",
+      "messages": 2
+    },
+    {
+      "line": 329,
+      "category": "상처·위로",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 330,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 331,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 332,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 333,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 334,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 335,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "5학년 말 신비부 체포 이후",
+      "messages": 2
+    },
+    {
+      "line": 336,
+      "category": "상처·위로",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 337,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 338,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 339,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 340,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 341,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 342,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "5학년 말 신비부 체포 이후",
+      "messages": 2
+    },
+    {
+      "line": 343,
+      "category": "상처·위로",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 344,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 345,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 346,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 347,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 348,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 349,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "5학년 말 신비부 체포 이후",
+      "messages": 2
+    },
+    {
+      "line": 350,
+      "category": "상처·위로",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 351,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 352,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 353,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 354,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 355,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 356,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "5학년 말 신비부 체포 이후",
+      "messages": 2
+    },
+    {
+      "line": 357,
+      "category": "상처·위로",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 358,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 359,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 360,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 361,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 362,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 363,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "5학년 말 신비부 체포 이후",
+      "messages": 2
+    },
+    {
+      "line": 364,
+      "category": "상처·위로",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 365,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 366,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 367,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 368,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 369,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 370,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "6학년 열차 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 371,
+      "category": "상처·위로",
+      "stage": "앙숙",
+      "timeline_gate": "7학년 필요의 방 구조·크래브 사망 이후",
+      "messages": 2
+    },
+    {
+      "line": 372,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 373,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 374,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 375,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 376,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 377,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "6학년 열차 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 378,
+      "category": "상처·위로",
+      "stage": "라이벌",
+      "timeline_gate": "7학년 필요의 방 구조·크래브 사망 이후",
+      "messages": 2
+    },
+    {
+      "line": 379,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 380,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 381,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 382,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 383,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 384,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "6학년 열차 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 385,
+      "category": "상처·위로",
+      "stage": "들킴",
+      "timeline_gate": "7학년 필요의 방 구조·크래브 사망 이후",
+      "messages": 2
+    },
+    {
+      "line": 386,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 387,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 388,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 389,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 390,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 391,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "6학년 열차 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 392,
+      "category": "상처·위로",
+      "stage": "휴전",
+      "timeline_gate": "7학년 필요의 방 구조·크래브 사망 이후",
+      "messages": 2
+    },
+    {
+      "line": 393,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 394,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 395,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 396,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 397,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 398,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "6학년 열차 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 399,
+      "category": "상처·위로",
+      "stage": "특별함",
+      "timeline_gate": "7학년 필요의 방 구조·크래브 사망 이후",
+      "messages": 2
+    },
+    {
+      "line": 400,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 401,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 402,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 403,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 404,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 405,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "6학년 섹툼셈프라 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 406,
+      "category": "상처·위로",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 407,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 408,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 409,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 410,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 411,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 412,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "6학년 섹툼셈프라 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 413,
+      "category": "상처·위로",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 414,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 415,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 416,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 417,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 418,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 419,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "6학년 섹툼셈프라 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 420,
+      "category": "상처·위로",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 421,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 422,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 423,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 424,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 425,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 4
+    },
+    {
+      "line": 426,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "6학년 섹툼셈프라 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 427,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 428,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 429,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 430,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 431,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 6
+    },
+    {
+      "line": 432,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "6학년 섹툼셈프라 상해 이후",
+      "messages": 2
+    },
+    {
+      "line": 433,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 434,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "6학년 상해 회상 문맥이면 상해 이후; 그렇지 않으면 비교 대목을 사용하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 435,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 436,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 437,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 438,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "6학년 천문탑 사건 이후, 포터가 경위를 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 439,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 440,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "6학년 상해 회상 문맥이면 상해 이후; 그렇지 않으면 비교 대목을 사용하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 441,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 442,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 443,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 444,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "6학년 천문탑 사건 이후, 포터가 경위를 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 445,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 446,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "6학년 상해 회상 문맥이면 상해 이후; 그렇지 않으면 비교 대목을 사용하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 447,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 448,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 449,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 450,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "6학년 천문탑 사건 이후, 포터가 경위를 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 451,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 452,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "6학년 상해 회상 문맥이면 상해 이후; 그렇지 않으면 비교 대목을 사용하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 453,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 454,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 455,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 456,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "6학년 천문탑 사건 이후, 포터가 경위를 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 457,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 458,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "6학년 상해 회상 문맥이면 상해 이후; 그렇지 않으면 비교 대목을 사용하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 459,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 460,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 461,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 462,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "6학년 천문탑 사건 이후, 포터가 경위를 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 463,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 464,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 465,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 466,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 467,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 468,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "7학년 말포이 저택 탈출 이후",
+      "messages": 2
+    },
+    {
+      "line": 469,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 470,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 471,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 472,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 473,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 474,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "7학년 말포이 저택 탈출 이후",
+      "messages": 2
+    },
+    {
+      "line": 475,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 476,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 477,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 478,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 479,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 480,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "7학년 말포이 저택 탈출 이후",
+      "messages": 2
+    },
+    {
+      "line": 481,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 482,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 483,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 484,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 485,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 486,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "7학년 말포이 저택 탈출 이후",
+      "messages": 2
+    },
+    {
+      "line": 487,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 488,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 489,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 490,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 491,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 492,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "7학년 말포이 저택 탈출 이후",
+      "messages": 2
+    },
+    {
+      "line": 493,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 494,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 495,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 496,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 497,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 498,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "7학년 지팡이 탈취 이후, 충성 이동을 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 499,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 500,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 501,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 502,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 503,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 504,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "7학년 지팡이 탈취 이후, 충성 이동을 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 505,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 506,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 507,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 508,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 509,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 510,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "7학년 지팡이 탈취 이후, 충성 이동을 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 511,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 512,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 513,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 514,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 515,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 516,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "7학년 지팡이 탈취 이후, 충성 이동을 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 517,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 518,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 519,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 520,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 521,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 522,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "7학년 지팡이 탈취 이후, 충성 이동을 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 523,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 524,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 525,
+      "category": "질투",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 526,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 527,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 528,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "7학년 필요의 방 구조 이후",
+      "messages": 2
+    },
+    {
+      "line": 529,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 530,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 531,
+      "category": "질투",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 532,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 533,
+      "category": "허접 붕괴",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 534,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "7학년 필요의 방 구조 이후",
+      "messages": 2
+    },
+    {
+      "line": 535,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 536,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 537,
+      "category": "질투",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 538,
+      "category": "들킴·변명",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 539,
+      "category": "허접 붕괴",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 540,
+      "category": "원작 기억",
+      "stage": "특별함",
+      "timeline_gate": "7학년 필요의 방 구조 이후",
+      "messages": 2
+    },
+    {
+      "line": 541,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 542,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 543,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 544,
+      "category": "들킴·변명",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 545,
+      "category": "허접 붕괴",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 546,
+      "category": "원작 기억",
+      "stage": "앙숙",
+      "timeline_gate": "7학년 호그와트 전투 종료 이후, 나르시사 행동을 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 547,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 548,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 549,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 550,
+      "category": "들킴·변명",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 551,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 552,
+      "category": "원작 기억",
+      "stage": "라이벌",
+      "timeline_gate": "7학년 호그와트 전투 종료 이후, 나르시사 행동을 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 553,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 554,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 555,
+      "category": "질투",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 556,
+      "category": "들킴·변명",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 557,
+      "category": "허접 붕괴",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 558,
+      "category": "원작 기억",
+      "stage": "들킴",
+      "timeline_gate": "7학년 호그와트 전투 종료 이후, 나르시사 행동을 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 559,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 560,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 561,
+      "category": "질투",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 562,
+      "category": "들킴·변명",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 563,
+      "category": "허접 붕괴",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 564,
+      "category": "원작 기억",
+      "stage": "휴전",
+      "timeline_gate": "7학년 호그와트 전투 종료 이후, 나르시사 행동을 알게 된 상태",
+      "messages": 2
+    },
+    {
+      "line": 565,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 566,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 567,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 568,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 569,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 570,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 571,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 572,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 573,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 574,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 575,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 576,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 577,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 578,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 579,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 580,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 581,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 582,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 583,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 584,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 585,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 586,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 587,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 588,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 589,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 590,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 591,
+      "category": "핑계",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 592,
+      "category": "일상 시비",
+      "stage": "앙숙",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 593,
+      "category": "핑계",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 594,
+      "category": "일상 시비",
+      "stage": "라이벌",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 595,
+      "category": "핑계",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 596,
+      "category": "일상 시비",
+      "stage": "들킴",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 597,
+      "category": "핑계",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 598,
+      "category": "일상 시비",
+      "stage": "휴전",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 599,
+      "category": "핑계",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    },
+    {
+      "line": 600,
+      "category": "일상 시비",
+      "stage": "특별함",
+      "timeline_gate": "현재 학년의 안전한 일상; 미래 사건·새 학년·전후 상태를 추가하지 않음",
+      "messages": 2
+    }
+  ]
+}
