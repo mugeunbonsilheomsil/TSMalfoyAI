@@ -28,6 +28,7 @@ export function tidy(text, streaming = false) {
   let s = text.replace(/[(（][^()（）]{0,200}[)）]/g, " ").replace(/\*[^*\n]{1,120}\*/g, " ");
   if (streaming) s = s.replace(/[(（*][^()（）*]*$/, "");
   s = s.replace(/[\p{Extended_Pictographic}\u{FE0F}\u{200D}]/gu, "");
+  s = s.replace(/포터 어(?=[?!.,~…\s]|$)/g, "포터어");                          // LoRA v3 가 가끔 '포터 어?' 로 띄어 씀
   return s.replace(/[ \t]{2,}/g, " ").replace(/ *\n */g, "\n").replace(/\n{3,}/g, "\n\n").trim();
 }
 

@@ -1,0 +1,7 @@
+0.00.968.468 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.00.975.090 W load: special_eos_id is not in special_eog_ids - the tokenizer config may be incorrect
+0.01.567.000 I cmn          init: llama threadpool init, n_threads = 16
+0.01.569.003 W init: embeddings required but some input tokens were not marked as outputs -> overriding
+0.03.102.650 W init_audio: audio input is in experimental stage and may have reduced quality:
+    https://github.com/ggml-org/llama.cpp/discussions/13759
+0.07.302.374 W init: embeddings required but some input tokens were not marked as outputs -> overriding

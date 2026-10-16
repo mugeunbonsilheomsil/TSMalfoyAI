@@ -30,6 +30,9 @@ export class Voice {
       });
       p.on("exit", () => { this.proc = null; for (const cb of this.pending.values()) cb.rej(new Error("음성 엔진 종료")); this.pending.clear(); rej(new Error("음성 엔진이 시작하지 못했습니다")); });
     });
+    // 첫 합성은 GPU 셰이더 컴파일 때문에 느림(Vulkan 실측: 첫 문장 RTF 3.5 → 이후 0.35). 음성 대화를 켜는 순간 짧은 문장으로 미리 데움
+    this.ready.then(() => { const id = "warm"; this.pending.set(id, { res() {}, rej() {} });
+      this.proc?.stdin.write(JSON.stringify({ id, text: "응.", lang: "ko", speaker: this.cfg.speaker, out: path.join(this.cfg.outDir, "warm.wav"), seed: 7, max_frames: 40 }) + "\n"); }).catch(() => {});
     clearInterval(this.idle);
     this.idle = setInterval(() => { if (this.proc && !this.pending.size && Date.now() - this.lastUse > 3 * 60000) this.stop(); }, 15000);
     return this.ready;
